@@ -1,0 +1,78 @@
+
+/***********************************************************************************
+
+Animations
+  
+************************************************************************************/
+
+.animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.fast {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+}
+
+.animated.slow {
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+}
+
+/* Pulse */
+
+.pulse {
+    -webkit-animation: pulse ease infinite;
+    animation: pulse ease infinite;
+}
+
+@-webkit-keyframes pulse{from{-webkit-transform:scale(.95)}50%{-webkit-transform:scale(1)}to{-webkit-transform:scale(.95)}}
+@-moz-keyframes pulse{from{-moz-transform:scale(.95)}50%{-moz-transform:scale(1)}to{-moz-transform:scale(.95)}}
+@keyframes pulse{from{transform:scale(.95)}50%{transform:scale(1)}to{transform:scale(.95)}}
+
+/* Fade In */
+
+.fade-in {
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
+}
+
+@-webkit-keyframes fade-in{from{opacity:0}to{opacity:1}}
+@-moz-keyframes fade-in{from{opacity:0}to{opacity:1}}
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
+
+/* Fade Out */
+
+.fade-out {
+    -webkit-animation-name: fade-out;
+    animation-name: fade-out;
+}
+
+@-webkit-keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+@-moz-keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+@keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+
+/* Slide In */
+
+.slide-in {
+    -webkit-animation-name: slide-in;
+    animation-name: slide-in;
+}
+
+@-webkit-keyframes slide-in{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}100%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
+@-moz-keyframes slide-in{0%{-moz-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}100%{-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
+@keyframes slide-in{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}100%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
+
+/* Slide Out */
+
+.slide-out {
+    -webkit-animation-name: slide-out;
+    animation-name: slide-out;
+}
+
+@-webkit-keyframes slide-out{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}
+@-moz-keyframes slide-out{0%{-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{visibility:hidden;-moz-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}
+@keyframes slide-out{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}
