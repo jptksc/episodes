@@ -45,7 +45,7 @@ $contact['text'] = 'Here’s an example contact panel for the “Episodes” tem
 // Contact Form Email
 // Edit your contact panel form email below.
 
-$contact['email'] = 'hi@leeflets.com';
+$contact['email'] = 'jason@circa75.co';
 
 
 // News Panel
@@ -58,20 +58,20 @@ $news['text'] = 'Here’s an example newsletter panel for the “Episodes” tem
 // MailChimp Integration
 // Edit your MailChimp API and List ID below.
 
-$mailchimp['api'] = 'e12346bff71235cff16fc123efb4c6e8-us1';
-$mailchimp['list'] = '123a12ea16';
+$mailchimp['api'] = 'e12346bff12345cff16fc123efb4c6e8-us1';
+$mailchimp['list'] = '123a15ea16';
 
 
 // Footer Text
 // Edit your footer text below.
 
-$footer['text'] = 'The <a href="https://leeflets.com/episodes" target="_blank">Episodes</a> Template by <a href="https://leeflets.com" target="_blank">Leeflets</a>';
+$footer['text'] = 'The Episodes Template by <a href="http://jason.sc" target="_blank">Jason Schuller</a>';
 
 
 // Social Links
 // Edit your social links for the footer.
 
-$social['twitter'] = 'getleeflets';
+$social['twitter'] = 'jschuller';
 $social['facebook'] = 'yourusername';
 $social['instagram'] = 'yourusername';
 
